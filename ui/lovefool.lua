@@ -195,7 +195,7 @@ function library:Watermark(text)
         end
     end
 
-    tetx = text or "xsx v2"
+    tetx = text or "lovefool"
 
     local watermark = Instance.new("ScreenGui")
     local watermarkPadding = Instance.new("UIPadding")
@@ -319,7 +319,7 @@ function library:Watermark(text)
 
     local WatermarkFunctions = {}
     function WatermarkFunctions:AddWatermark(text)
-        tetx = text or "xsx v2"
+        tetx = text or "lovefool"
 
         local edge = Instance.new("Frame")
         local edgeCorner = Instance.new("UICorner")
